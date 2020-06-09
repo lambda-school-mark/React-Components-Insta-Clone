@@ -30,7 +30,10 @@ const Post = (props) => {
         />
       </div>
       <LikeSection updater={likeUpdater} likes={likes} />
-      <CommentSection postId={postData.imageUrl} comments={postData.comments} />
+      <CommentSection
+        postId={postData.imageUrl}
+        commentsData={postData.comments}
+      />
     </div>
   );
 };

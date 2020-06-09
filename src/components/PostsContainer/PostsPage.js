@@ -10,6 +10,7 @@ import LikeSection from "./LikeSection";
 const PostsPage = () => {
   // set up state for your data
   const [posts, setPosts] = useState(dummyData);
+  //! do you need setPosts???
 
   return (
     <div className="posts-container-wrapper">
