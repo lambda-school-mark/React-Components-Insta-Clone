@@ -18,7 +18,6 @@ const PostsPage = () => {
       {posts.map((post) => {
         return <Post postData={post} />;
       })}
-      {<LikeSection />}
     </div>
   );
 };
